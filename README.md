@@ -59,5 +59,5 @@ files
 
 Known issues
 ------------
-- Text is not selectable and searchable in the resulting PDF files. This is probably a limitation of `pdftools`.
+- Text is not selectable and searchable in the resulting PDF files. This is probably a limitation of `swftools`.
 Workaround: Run OCR on the PDF, e.g. in Adobe Reader.
