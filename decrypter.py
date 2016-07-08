@@ -82,5 +82,5 @@ for dirname in sys.argv[1:]:
 
     print("joining pdf")
 
-    command = "pdfunite {} {}".format(dirname + "/pages_pdf/*.pdf", dirname + "/book.pdf")
+    command = "pdfunite $(ls -v {}) {}".format(dirname + "/pages_pdf/*.pdf", dirname + "/book.pdf")
     os.system(command)
