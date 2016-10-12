@@ -19,9 +19,10 @@ How to
 **On your Windows OS**
 - Install the "Digitale Schulbücher" client on your Windows machine and log in
 - Download and open the book(s) you want to convert to PDF
-- Navigate to the following folder:
+- Navigate to one of the following folders (only one of them will exist on your system):
 ```
 C:\Users\<user name>\AppData\Roaming\Digitale.Schulbucher\Local Store\users\<some user ID>\
+C:\Program Files (x86)\Digitale Schulbücher\data\users\<some user ID>\
 ```
 - Find the book you are looking for by going through the subfolders and looking at their respective `desc\thumb.png`
 files
